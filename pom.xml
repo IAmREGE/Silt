@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <build>
+    <sourceDirectory>core/src/main/java</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>core/src/main/resources</directory>
+      </resource>
+    </resources>
+  </build>
+
+  <groupId>rege.rege.silt</groupId>
+  <artifactId>silt</artifactId>
+  <version>0.0.1a1</version>
+  <packaging>jar</packaging>
+
+  <name>silt</name>
+  <url>http://github.com/IAmREGE/Silt</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>LGPL-3.0-or-later</name>
+      <url>https://gnu.org/licenses/lgpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

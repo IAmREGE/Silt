@@ -1,0 +1,4 @@
+* text=auto eol=lf
+LICENSE text eol=crlf
+LICENSES/* text eol=crlf
+*.bat text eol=crlf
